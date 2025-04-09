@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -13,9 +14,10 @@ const Index = () => {
       <About />
       <Skills />
       <Experience />
+      <Certifications />
       <Contact />
       <footer className="py-6 text-center text-sm text-muted-foreground border-t">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Amin Kareshi. All rights reserved.</p>
       </footer>
     </Layout>
   );

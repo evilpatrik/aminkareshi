@@ -1,4 +1,6 @@
 
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
 const About = () => {
   return (
     <section id="about" className="bg-secondary/50">
@@ -7,27 +9,22 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
           <div className="md:col-span-3 space-y-4">
             <p className="text-lg">
-              Hello! I'm a passionate software developer with a keen interest in creating 
-              intuitive and impactful digital experiences. My journey in tech began
-              when I built my first website, and I've been hooked ever since.
+              Hello! I'm a passionate Data Scientist with expertise in Python, machine learning algorithms, and data analysis. 
+              My journey in data science began during my academic years and I've been enthusiastic about extracting meaningful patterns from data ever since.
             </p>
             <p>
-              I focus on writing clean, efficient code and enjoy solving complex 
-              problems. When I'm not coding, you can find me exploring new technologies,
-              contributing to open-source projects, or enjoying the outdoors.
+              I focus on applying statistical methods and machine learning techniques to solve complex problems. 
+              I have experience working with cryptocurrency data and enjoy teaching data structures and algorithms.
             </p>
             <p>
-              I believe in continuous learning and am always looking to expand my
-              skillset and tackle new challenges.
+              I believe in continuous learning and am always exploring new technologies and methodologies in the field of data science to expand my skillset.
             </p>
           </div>
           <div className="md:col-span-2 flex items-center justify-center">
-            <div className="w-64 h-64 bg-muted rounded-lg shadow-md">
-              {/* You can add your image here */}
-              <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                Profile Image
-              </div>
-            </div>
+            <Avatar className="w-64 h-64 rounded-lg shadow-md overflow-hidden">
+              <AvatarImage src="/lovable-uploads/0dbd82f9-a479-4bac-9ee5-172cff82fe8f.png" alt="Amin Kareshi" className="object-cover" />
+              <AvatarFallback className="text-2xl">AK</AvatarFallback>
+            </Avatar>
           </div>
         </div>
       </div>

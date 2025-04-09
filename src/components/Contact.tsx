@@ -6,17 +6,17 @@ const Contact = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://linkedin.com/in/amin-kareshi", // Replace with your actual LinkedIn profile
       icon: <Linkedin className="h-5 w-5" />,
     },
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/amin-kareshi", // Replace with your actual GitHub profile
       icon: <Github className="h-5 w-5" />,
     },
     {
       name: "Email",
-      url: "mailto:your.email@example.com",
+      url: "mailto:amin.kareshi@example.com", // Replace with your actual email
       icon: <Mail className="h-5 w-5" />,
     },
   ];
@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="container-section text-center">
         <h2 className="section-title mx-auto mb-12 after:left-1/4">Get In Touch</h2>
         <p className="max-w-lg mx-auto mb-10 text-center">
-          I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
+          I'm currently looking for new opportunities in data science. Whether you have a question about my work or just want to say hi, feel free to reach out!
         </p>
 
         <div className="mb-12">

@@ -9,7 +9,7 @@ const ResumeButton = () => {
   return (
     <Button className="btn-primary group">
       <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
-      Download Resume
+      Download CV
     </Button>
   );
 };

@@ -13,25 +13,18 @@ interface ExperienceItem {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      title: "Senior Software Developer",
-      company: "Tech Company",
-      period: "Jan 2022 - Present",
-      description: "Led the development of a major product feature that increased user engagement by 35%. Mentored junior developers and implemented best practices for code quality.",
-      technologies: ["React", "TypeScript", "Node.js", "AWS"],
+      title: "Data Scientist",
+      company: "CopalCapital",
+      period: "2022 - Present",
+      description: "Working with data science tools to analyze cryptocurrency data, extract patterns, and develop predictive models for market trends and investment opportunities.",
+      technologies: ["Python", "TensorFlow", "Scikit-Learn", "Data Analysis", "Cryptocurrency"],
     },
     {
-      title: "Software Developer",
-      company: "Digital Agency",
-      period: "Mar 2019 - Dec 2021",
-      description: "Developed and maintained multiple client websites and applications. Collaborated with designers to implement responsive UI components.",
-      technologies: ["JavaScript", "React", "CSS", "Git"],
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Startup Inc.",
-      period: "Jun 2017 - Feb 2019",
-      description: "Built and maintained the company's main website. Integrated third-party APIs and implemented analytics tracking.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      title: "Teaching Assistant",
+      company: "Kurdistan University",
+      period: "2021 - 2022",
+      description: "Assisted professors in teaching Data Structures and Algorithms course. Conducted lab sessions, graded assignments, and helped students understand complex algorithmic concepts.",
+      technologies: ["Data Structures", "Algorithms", "Teaching", "Problem-Solving"],
     },
   ];
 

@@ -2,16 +2,16 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages",
-      skills: ["JavaScript", "TypeScript", "HTML", "CSS", "Python", "Java"],
+      title: "Languages & Technologies",
+      skills: ["Python", "Java", "C", "Flask", "Git", "GitHub", "VS Code"],
     },
     {
-      title: "Frameworks & Libraries",
-      skills: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
+      title: "Data Science & ML",
+      skills: ["TensorFlow", "Scikit-Learn", "Data Structures", "Algorithms", "Probability", "Statistics"],
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "GitHub", "VS Code", "Docker", "AWS", "Vercel"],
+      skills: ["Jupyter Notebook", "Pandas", "NumPy", "Matplotlib", "Data Visualization", "SQL"],
     },
   ];
 

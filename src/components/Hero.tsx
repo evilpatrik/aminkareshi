@@ -15,13 +15,13 @@ const Hero = () => {
         <div className="space-y-4 animate-fade-in">
           <p className="text-lg text-muted-foreground font-light">Hello, I'm</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-            Your Name
+            Amin Kareshi
           </h1>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-muted-foreground">
-            Software Developer
+            Data Scientist
           </h2>
           <p className="max-w-xl text-lg md:text-xl mt-6">
-            I build exceptional and accessible digital experiences for the web.
+            I specialize in extracting insights from data and building machine learning models with a focus on Python and data science frameworks.
           </p>
         </div>
         <div className="mt-12">
