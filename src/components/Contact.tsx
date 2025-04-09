@@ -1,6 +1,5 @@
 
 import { Github, Linkedin, Mail } from "lucide-react";
-import ResumeButton from "./ResumeButton";
 
 const Contact = () => {
   const socialLinks = [
@@ -28,10 +27,6 @@ const Contact = () => {
         <p className="max-w-lg mx-auto mb-10 text-center">
           I'm currently looking for new opportunities in data science. Whether you have a question about my work or just want to say hi, feel free to reach out!
         </p>
-
-        <div className="mb-12">
-          <ResumeButton />
-        </div>
 
         <div className="flex items-center justify-center gap-6">
           {socialLinks.map((link, index) => (
