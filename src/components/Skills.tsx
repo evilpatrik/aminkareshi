@@ -1,5 +1,5 @@
 
-import { Database, Brain, Tools } from "lucide-react";
+import { Database, Brain, Wrench } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -15,7 +15,7 @@ const Skills = () => {
     },
     {
       title: "Tools & Platforms",
-      icon: <Tools className="h-6 w-6 text-primary" />,
+      icon: <Wrench className="h-6 w-6 text-primary" />,
       skills: ["Jupyter Notebook", "Pandas", "NumPy", "Matplotlib", "Data Visualization", "SQL"],
     },
   ];
