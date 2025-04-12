@@ -1,16 +1,21 @@
 
+import { Database, Brain, Tools } from "lucide-react";
+
 const Skills = () => {
   const skillCategories = [
     {
       title: "Languages & Technologies",
+      icon: <Database className="h-6 w-6 text-primary" />,
       skills: ["Python", "Java", "C", "Flask", "Git", "GitHub", "VS Code"],
     },
     {
       title: "Data Science & ML",
+      icon: <Brain className="h-6 w-6 text-primary" />,
       skills: ["TensorFlow", "Scikit-Learn", "Data Structures", "Algorithms", "Probability", "Statistics"],
     },
     {
       title: "Tools & Platforms",
+      icon: <Tools className="h-6 w-6 text-primary" />,
       skills: ["Jupyter Notebook", "Pandas", "NumPy", "Matplotlib", "Data Visualization", "SQL"],
     },
   ];
@@ -23,12 +28,18 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div 
               key={index} 
-              className="p-6 rounded-lg bg-secondary/30 shadow-sm transition-all hover:shadow-md"
+              className="p-6 rounded-lg border bg-card shadow-sm transition-all hover:shadow-md hover:border-primary/30"
             >
-              <h3 className="mb-4 text-xl font-semibold">{category.title}</h3>
+              <div className="flex items-center gap-3 mb-4">
+                {category.icon}
+                <h3 className="text-xl font-semibold">{category.title}</h3>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill, skillIndex) => (
-                  <span key={skillIndex} className="skill-tag">
+                  <span 
+                    key={skillIndex} 
+                    className="px-3 py-1.5 rounded-full bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/80 transition-colors"
+                  >
                     {skill}
                   </span>
                 ))}
