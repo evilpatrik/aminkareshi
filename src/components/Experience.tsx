@@ -15,7 +15,7 @@ const Experience = () => {
     {
       title: "Data Scientist",
       company: "CopalCapital",
-      period: "2022 - Present",
+      period: "Jul 2024 - Oct 2024",
       description: "Working with data science tools to analyze cryptocurrency data, extract patterns, and develop predictive models for market trends and investment opportunities.",
       technologies: ["Python", "TensorFlow", "Scikit-Learn", "Data Analysis", "Cryptocurrency"],
     },

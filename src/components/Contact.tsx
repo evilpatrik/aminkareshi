@@ -20,7 +20,7 @@ const Contact = () => {
     },
     {
       name: "Phone",
-      url: "tel:+989051284424",
+      url: "tel:+9809051254424",
       icon: <Phone className="h-5 w-5" />,
     },
   ];
