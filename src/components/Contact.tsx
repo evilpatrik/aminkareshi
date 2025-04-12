@@ -1,22 +1,27 @@
 
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Globe } from "lucide-react";
 
 const Contact = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/amin-kareshi", // Replace with your actual LinkedIn profile
+      url: "https://linkedin.com/in/amin-karashi",
       icon: <Linkedin className="h-5 w-5" />,
     },
     {
       name: "GitHub",
-      url: "https://github.com/amin-kareshi", // Replace with your actual GitHub profile
+      url: "https://github.com/evilpatrik",
       icon: <Github className="h-5 w-5" />,
     },
     {
       name: "Email",
-      url: "mailto:amin.kareshi@example.com", // Replace with your actual email
+      url: "mailto:aminkarashi8282@gmail.com",
       icon: <Mail className="h-5 w-5" />,
+    },
+    {
+      name: "Phone",
+      url: "tel:+989051284424",
+      icon: <Phone className="h-5 w-5" />,
     },
   ];
 
